@@ -1,0 +1,28 @@
+{
+  "name": "get-zips",
+  "version": "0.0.1",
+  "description": "Get a Lat Lng coordinate from a zip code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "webpack",
+    "typescript"
+  ],
+  "author": "Edward Howard",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4",
+    "html-webpack-plugin": "^3.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.428.0"
+  }
+}
